@@ -1,0 +1,64 @@
+.icono{
+    width: 80px;
+    height: 80px;
+}
+
+.editor-text{
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    margin-left: 320px;
+}
+
+.editor-text img{
+    margin-bottom: 20px;
+    margin-left: 240px;
+}
+
+.editor{
+    display: flex;
+    padding: 50px;
+    padding-top: 150px;
+}
+
+.editor-text p{
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 500px;
+    text-align: center;
+    text-justify: baseline;
+    overflow: 10px;
+    box-sizing: 20px;
+    vertical-align: middle;
+}
+
+.editor-text h1{
+    font-size: 50px;
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.editor-text button{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.editor-text button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+.zapato{
+    width: 500px;
+}

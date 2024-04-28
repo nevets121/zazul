@@ -1,0 +1,52 @@
+.ayuda button{
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    right: 5px;
+    bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: blueviolet;
+    color: white;
+    transition: .5s  ;
+    position: fixed;
+}
+
+.compra button{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: blueviolet;
+    color: white;
+    transition: .5s  ;
+    position: fixed;
+}
+
+.compra button:hover{
+    
+    background: none;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+
+
+
+
+
+
+.ayuda button:hover{
+    
+    background: none;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+/* <div class="ayuda">
+        <button><a href="#"><i class="fa-solid fa-comments"></i> Necesitas ayuda?</a></button>
+</div>

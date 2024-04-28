@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+section .h2{
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: 370px;
+}
+
+section .h22{
+    font-family: "Orbitron", sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 500px;
+    font-style: normal;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 400;
+}
+
+
+.slider-frame {
+    width: 500px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 12s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.divs{
+    display: flex;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+.divx{
+  padding-top: 20px;
+}
+
+
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}

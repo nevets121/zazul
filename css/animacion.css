@@ -1,0 +1,91 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.zapato{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.editor-text{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.zapato1{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.editor-text1{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+footer img{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 30%;
+    animation-fill-mode: both;
+}
+
+footer h2{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 30%;
+    animation-fill-mode: both;
+}
+
+footer p{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 30%;
+    animation-fill-mode: both;
+}
+
+footer a{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 30%;
+    animation-fill-mode: both;
+}
